@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>教务系统登录</title>
+		<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#loginDiv{
+				background-color: white;
+				width: 480px;
+				height: 420px;
+				margin: 0 auto;
+				color: #1E9FFF;
+				margin-top: 100px;
+				text-align: center;
+				padding-top: 20px;
+			}
+			#uname{
+				width: 400px;
+				height: 35px;
+				border-radius: 5px solid lightgray ;
+				margin-left: -30px;
+				padding-top: 10px;
+				background-color: transparent;
+				padding-left: 30px;
+				border: 1px solid lightgray;
+				font-size: 16px;
+				font-family: "仿宋";;
+			}
+			#upsw{
+				width: 400px;
+				height: 35px;
+				border-radius: 5px solid lightgray ;
+				margin-left: -30px;
+				padding-top: 10px;
+				background-color: transparent;
+				padding-left: 30px;
+				margin-top: 15px;
+				border: 1px solid lightgray;
+				font-size: 16px;
+				font-family: "仿宋";
+				}
+				#identity{
+				width: 400px;
+				height: 35px;
+				border-radius: 5px solid lightgray ;
+				margin-left: -30px;
+				padding-top: 15px;
+				
+				background-color: transparent;
+				padding-left: 30px;
+				margin-top: 15px;
+				border: 1px solid lightgray;
+				font-size: 16px;
+				font-family: "仿宋";
+					
+				}
+				/*#loginBtn{
+					width: 430px;
+					height:  35px ;
+					margin-top: 15px;
+					background-color: #1E9FFF;
+					border: 1px solid #1E9FFF;
+					color: white;
+					border-radius: 10px;
+					
+				}*/
+				.button {
+				width: 430px;
+				height: 35px ;
+    			background-color:#1E9FFF; /* 背景颜色 */
+    			border: none;/*边框颜色*/
+   				color: white;/*字体颜色*/
+   				border-radius: 10px;/*弧度*/
+    			text-align: center;
+    			text-decoration: none;/*字体下划线*/
+   				display: inline-block;
+    			font-size: 16px;/*字体大小*/
+    			margin: 15px 2px;
+    			-webkit-transition-duration: 0.4s; /* Safari */
+    			transition-duration: 0.4s;
+    			cursor: pointer;
+				}
+
+				.button1 {
+   				background-color: white; 
+   				color: black; 
+    			border: 2px solid #1E9FFF;/*边框像素和边框颜色*/
+    			border-radius: 10px;
+				}
+
+				.button1:hover {
+   				background-color:#1E9FFF;
+   				color: white;
+   				border-radius: 10px;
+				}
+
+		</style>
+	</head>
+	<body>
+		<div id="loginDiv">
+			<h1>UOlab联合开放实验室管理平台</h1>
+			<img src="lALPDgQ9yIA4n9gUFA_20_20.png"/>
+			<input placeholder="用户名" type="text" id="uname" name="username" />
+			<br>
+			<img src="lALPDgQ9yIA-N8oUFA_20_20.png"/>
+			<input placeholder="密码" type="password" id="upsw" name="userpassword" />
+			<br />
+			<img src="WPS图片编辑.png"/>
+			<input placeholder="验证码 " type="text" id="identity" name="useridentity" />
+			<br>
+			<button class="button button1">登录</button>
+				
+
+		</div>
+	</body>
+</html>
